@@ -1,0 +1,133 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif; */
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 100vw;
+    align-items: center;
+    overflow: hidden;
+    margin: 5vh auto;
+}
+
+.loginLogo{
+    object-fit: contain;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 5%;
+    padding: 2% 1%;
+}
+
+/* .formContainer>div{
+    display: flex;
+} */
+
+div.password{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    font-size: larger;
+}
+
+.forgotPassword{
+    background-color: inherit;
+    border: none;
+    margin-right: 1%;
+    font-weight: bold;
+}
+
+.formContainer>h2{
+    margin-bottom: 10%;
+    font-size: 300%;
+}
+
+.formContainer>form>h5{
+    margin-bottom: 3%;
+    font-size: larger;
+}
+
+.formContainer>form>input{
+    margin-bottom: 5%;
+    width: 98%;
+    height: 20%;
+    padding: 0 1%;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.formContainer>form>input:focus{
+    border-color: lightblue;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.formContainer>.signIn{
+    background-color: #FEBD69;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    margin: 5% auto;
+    width: 98%;
+    padding: 1% 0;
+    font-size: large;
+}
+
+.formContainer>.signIn:hover{
+    background-color: #febd69dd;
+}
+
+.formContainer>.checkboxSignedIn{
+    width: 98%;
+    margin: 1% auto;
+}
+
+.formContainer>.checkboxSignedIn>button{
+    border: none;
+    background-color: inherit;
+    color: blue;
+}
+.formContainer>.checkboxSignedIn>button:hover{
+    text-decoration: underline;
+}
+
+.formContainer>.register{
+    background-color: #B2BEB5;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    margin-top: 5%;
+    width: 98%;
+    padding: 1% 0;
+    font-size: large;
+}
+
+.formContainer>.register:hover{
+        background-color: #b2beb5d1;
+    }
+
+.logo2{
+    width: 20%;
+    height: 10%;
+    margin: auto;
+}
